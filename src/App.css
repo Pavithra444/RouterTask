@@ -56,6 +56,7 @@ body {
   gap: 20px;
   padding: 20px;
   flex-wrap: wrap;
+  height: 300px;
 }
 
 .card {
@@ -177,7 +178,7 @@ body {
 }
 
 .career-image {
-  width: 100%;
+  width: 40%;
   max-width: 500px;
   border-radius: 8px;
   margin-top: 20px;
