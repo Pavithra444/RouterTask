@@ -1,0 +1,53 @@
+
+
+.navbar {
+    position: fixed;           /* Fixes the navbar to the top of the page */
+    top: 0;                    /* Ensures it stays at the very top */
+    left: 0;                   /* Ensures it aligns to the left edge */
+    width: 100%;               /* Spans the entire width of the screen */
+    background-color: #333;    /* Dark background for the navbar */
+    color: white;              /* White text color */
+    padding: 10px 0;           /* Vertical padding for the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Shadow for depth */
+    z-index: 1000;             /* Keeps it above other content */
+    font-family: Arial, sans-serif;  /* Clean font for the navbar */
+    display: flex;             /* Flexbox to arrange navbar items */
+    justify-content: center;   /* Centers the list items horizontally */
+    align-items: center;       /* Vertically center items */
+  }
+  
+  /* Remove list styling and arrange items horizontally */
+  .navList {
+    display: flex;             /* Flexbox to arrange items horizontally */
+    justify-content: center;   /* Centers the list items */
+    list-style-type: none;     /* Removes the default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Each item in the navigation */
+  .navItem {
+    margin: 0 25px;            /* Horizontal spacing between items */
+  }
+  
+  /* Styling the links */
+  .link {
+    text-decoration: none;     /* Removes the underline from links */
+    font-size: 18px;           /* Font size of the links */
+    color: white;              /* White text color */
+    padding: 10px 15px;        /* Padding inside each link to make it look like a button */
+    border-radius: 5px;        /* Rounded corners for the links */
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth transitions for hover effects */
+  }
+  
+  
+  .link:hover {
+    background-color: #007bff; 
+    color: white;              
+  }
+  
+  
+  .link:active {
+    background-color: #0056b3;
+  }
+  
